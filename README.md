@@ -13,6 +13,7 @@ mkdir -p work/go
 cd work/go
 export GOPATH=`pwd`
 mkdir -p src/github.com/mchirico
+cd src/github.com/mchirico
 
 git clone git@github.com:mchirico/goTravisTest.git
 ```
